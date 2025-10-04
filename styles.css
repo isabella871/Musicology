@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px white;
+}
+
+:root{
+    --grey: #2c2c2c;
+    --orange: #ff6309;
+    --white: white;
+    --oswaldFont: "Oswald", sans-serif;
+    --montserrat: "Montserrat", sans-serif;
+}
+
+nav{
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 5%;
+}
+
+.logo{
+    height: 55px;
+}
+
+.search{
+    height: 25px;
+}
+
+h1{
+    font-family: var(--montserrat);
+    font-weight: 420;
+    font-size: 110px;
+}
+
+.section1{
+    background-image: url(images/background.png);
+    padding: 20% 5%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 0;
+    height: 80vh;
+    width: 100%;
+    color: var(--white);
+}
+
+.section1 p{
+    font-family: var(--montserrat);
+    font-size: 24px;
+}
+
+.section1 button{
+    background-color: var(--orange);
+    font-family: var(--oswaldFont);
+    border: none;
+    color: var(--white);
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: 400;
+    width: 270px;
+    padding: 6px 0;
+}
+
+.danceTour{
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.danceTour h2{
+    font-family: var(--oswaldFont);
+    font-size: 55px;
+}
+
+.danceTourP{
+    font-family: var(--montserrat);
+    font-size: 25px;
+    padding-top: 13px;
+}
+
+.content-danceTour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 45px;
+}
+
+.items-danceTour{
+    background-color: var(--grey);
+    width: 360px;
+}
+
+.items-danceTour img{
+    width: 360px;
+}
+
+.items-danceTour p{
+    font-family: var(--montserrat);
+    padding: 12px 0 30px;
+    font-size: 20px;
+}
+
+.items-danceTour h3{
+    font-family: var(--oswaldFont);
+    padding-top: 18px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.items-pricing{
+    background-color: var(--orange);
+    width: 360px;
+    padding: 65px 0 30px 0;
+    border-radius: 8px;
+}
+
+.items-pricing button{
+    background-color: var(--grey);
+    font-family: var(--oswaldFont);
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    font-size: 23px;
+    padding: 14px;
+}
+
+.items-pricing h3{
+    font-family: var(--oswaldFont);
+    padding-top: 35px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.items-pricing p{
+    font-family: var(--montserrat);
+    font-size: 20px;
+    padding: 20px 0 21px;
+}
+
+footer{
+    background-color: var(--orange);
+    color: var(--white);
+    text-align: center;
+    font-family: var(--montserrat);
+    height: 60px;
+}
+
+@media screen and (max-width: 1300px){
+    .section1{
+        padding: 28% 5%;
+        background-position: 90% 0;
+        height: 25vh;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+
+    p{
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section1{
+        padding: 29% 5%;
+        height: 25vh;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section1{
+        padding: 22% 5%;
+        height: 25vh;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+}
