@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px white;
+    /*outline: 1px solid lightgoldenrodyellow;*/
 }
 
 :root{
@@ -40,13 +40,13 @@ h1{
 
 .section1{
     background-image: url(images/background.png);
-    padding: 20% 5%;
+    padding: 23% 5%;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 90% 0;
-    height: 80vh;
+    background-position: center -90px;
+    height: 30vh;
     width: 100%;
     color: var(--white);
 }
@@ -54,6 +54,7 @@ h1{
 .section1 p{
     font-family: var(--montserrat);
     font-size: 24px;
+    width: 620px;
 }
 
 .section1 button{
@@ -72,8 +73,8 @@ h1{
 .danceTour{
     background-color: var(--orange);
     color: var(--white);
-    padding: 5% 5%;
     text-align: center;
+    padding: 80px 5% 60px 5%;
 }
 
 .danceTour h2{
@@ -84,13 +85,13 @@ h1{
 .danceTourP{
     font-family: var(--montserrat);
     font-size: 25px;
-    padding-top: 13px;
+    padding: 13px;
 }
 
 .content-danceTour{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 50px;
     gap: 45px;
 }
@@ -153,14 +154,13 @@ footer{
     color: var(--white);
     text-align: center;
     font-family: var(--montserrat);
-    height: 60px;
+    height: 50px;
 }
 
 @media screen and (max-width: 1300px){
     .section1{
-        padding: 28% 5%;
-        background-position: 90% 0;
-        height: 25vh;
+        padding: 24% 5%;
+        background-position: center -90px;
     }
 
     h1{
@@ -170,26 +170,379 @@ footer{
     p{
         font-size: 3px;
     }
+
+    .content-danceTour{
+        justify-content: center;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1219px) {
+    nav{
+        height: 35px;
+    }
+
+    .logo{
+        height: 23px;
+    }
+
+    .search{
+        height: 12px;
+    }
+
     .section1{
-        padding: 29% 5%;
+        padding: 10% 5%;
         height: 25vh;
     }
 
     h1{
-        font-size: 70px;
+        font-size: 29px;
+        font-weight: 500;
+    }
+
+    .section1 p{
+        font-size: 11px;
+        width: 207px;
+    }
+
+    .section1 button{
+        margin-top: 6px;
+        font-size: 11px;
+        border-radius: 5px;
+        width: 90px;
+        padding: 3px 0;
+    }
+
+    .content-danceTour{
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .danceTour {
+        padding: 9% 5%;
+    }
+
+    .danceTour h2{
+        font-size: 25px;
+    }
+
+    .danceTourP{
+        font-size: 10px;
+        padding-top: 13px;
+    }
+
+    .items-danceTour img{
+        width: 230px;
+    }
+
+    .items-danceTour{
+        width: 230px;
+    }
+
+    .items-danceTour h3{
+        font-size: 20px;
+    }
+
+    .items-danceTour p{
+        font-size: 11px;
+        padding: 14px 23px;
+    }
+
+    .items-pricing{
+        width: 230px;
+        padding: 50px 0 14px 0;
+    }
+
+    .items-pricing img{
+        width: 40%;
+    }
+
+    .items-pricing button{
+        width: 170px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .items-pricing h3{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+
+    .items-pricing p{
+        font-size: 11px;
+        padding: 12px 0 10px;
+        width: 222px;
+    }
+
+    footer{
+        height: 25px;
+    }
+
+    footer p{
+        font-size: 7px;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .section1{
-        padding: 22% 5%;
-        height: 25vh;
+@media screen and (max-width: 1201px) {
+    nav{
+        height: 55px;
+    }
+
+    .logo{
+        height: 45px;
+    }
+
+    .search{
+        height: 21px;
     }
 
     h1{
-        font-size: 60px;
+        font-size: 82px;
+    }
+
+    .section1{
+        padding: 15% 5%;
+    }
+
+    .section1 p{
+        font-size: 26px;
+        width: 600px;
+    }
+
+    .section1 button{
+        margin-top: 10px;
+        font-size: 25px;
+        width: 240px;
+        padding: 4px 0;
+    }
+
+    .content-danceTour{
+        gap: 45px;
+    }
+
+    .danceTour {
+        padding: 8% 5%;
+    }
+
+    .danceTour h2{
+        font-size: 45px;
+    }
+
+    .danceTourP{
+        font-size: 24px;
+        padding-top: 13px;
+    }
+
+    .items-danceTour{
+        width: 285px;
+    }
+
+    .items-danceTour img{
+        width: 285px;
+    }
+
+    .items-danceTour p{
+        padding: 12px 15px 30px;
+        font-size: 20px;
+    }
+
+    .items-danceTour h3{
+        padding-top: 24px;
+        font-size: 32px;
+    }
+
+    .items-pricing{
+        width: 285px;
+        padding: 65px 30px;
+    }
+
+    .items-pricing h3{
+        font-size: 32px;
+    }
+
+    .items-pricing p{
+        font-size: 20px;
+    }
+
+    .items-pricing button{
+        font-size: 18px;
+    }
+
+    footer p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav{
+        height: 45px;
+    }
+
+    .logo{
+        height: 33px;
+    }
+
+    .search{
+        height: 21px;
+    }
+
+    .section1{
+        background-position: center -40px;
+        padding: 18% 5%;
+        height: 20vh;
+    }
+
+    h1{
+        font-size: 53px;
+    }
+
+    .section1 p{
+        font-size: 17px;
+        width: 390px;
+    }
+
+    .section1 button{
+        margin-top: 16px;
+        font-size: 16px;
+        width: 160px;
+        padding: 7px 0;
+    }
+
+    .content-danceTour{
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .danceTour h2{
+        font-size: 35px;
+    }
+
+    .danceTourP{
+        font-size: 16px;
+        padding-top: 13px;
+    }
+
+    .items-danceTour img{
+        width: 230px;
+    }
+
+    .items-pricing img{
+        width: 38%;
+    }
+
+    .items-danceTour{
+        width: 230px;
+    }
+
+    .items-danceTour h3{
+        font-size: 20px;
+    }
+
+    .items-danceTour p{
+        font-size: 11px;
+        padding: 14px 23px;
+    }
+}
+
+@media screen and (max-width: 683px) {
+    .section1{
+        background-position: center -15px;
+        padding: 21% 5%;
+        height: 16vh;
+    }
+
+    h1{
+        font-size: 43px;
+    }
+
+    .section1 p{
+        font-size: 14px;
+        width: 290px;
+    }
+
+    .section1 button{
+        margin-top: 12px;
+        font-size: 14px;
+        width: 145px;
+        padding: 4px 0;
+    }
+
+    .content-danceTour{
+        padding-top: 38px;
+        gap: 32px;
+    }
+
+    .danceTour h2{
+        font-size: 30px;
+    }
+
+    .danceTourP{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:519px) {
+    nav{
+        height: 32px;
+    }
+
+    .logo{
+        height: 23px;
+    }
+
+    .search{
+        height: 15px;
+    }
+
+    .section1{
+        background-position: center -21px;
+        padding: 16% 5%;
+        height: 20vh;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .section1 p{
+        font-size: 10px;
+        width: 204px;
+    }
+
+    .section1 button{
+        margin-top: 12px;
+        font-size: 10px;
+        width: 115px;
+        padding: 3px 0;
+    }
+
+    .content-danceTour{
+        padding-top: 20px;
+        gap: 35px;
+    }
+
+    .danceTour h2{
+        font-size: 28px;
+    }
+
+    .danceTourP{
+        font-size: 11px;
+        width: 295px;
+    }
+}
+
+@media (min-width: 352px) and (max-width: 518px) {
+    .section1{
+        background-position: center -21px;
+        padding: 16% 5%;
+        height: 10vh;
+    }
+
+    .danceTourP{
+        font-size: 11px;
+        width: 315px;
     }
 }
