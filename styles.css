@@ -38,6 +38,14 @@ h1{
     font-size: 110px;
 }
 
+h2{
+    font-size: 55px;
+}
+
+h3{
+    font-size: 34px;
+}
+
 .section1{
     background-image: url(images/background.png);
     padding: 23% 5%;
@@ -79,7 +87,6 @@ h1{
 
 .danceTour h2{
     font-family: var(--oswaldFont);
-    font-size: 55px;
 }
 
 .danceTourP{
@@ -115,7 +122,6 @@ h1{
 .items-danceTour h3{
     font-family: var(--oswaldFont);
     padding-top: 18px;
-    font-size: 34px;
     font-weight: 400;
 }
 
@@ -140,7 +146,6 @@ h1{
 .items-pricing h3{
     font-family: var(--oswaldFont);
     padding-top: 35px;
-    font-size: 34px;
     font-weight: 400;
 }
 
@@ -182,382 +187,120 @@ footer{
     }
 }
 
-@media screen and (max-width: 1219px) {
-    nav{
-        height: 55px;
-    }
-
-    .logo{
-        height: 43px;
-    }
-
-    .search{
-        height: 22px;
+@media (min-width: 921px) and (max-width: 1279px){
+    h1{
+        font-size: 67px;
     }
 
     .section1{
-        padding: 17% 5%;
-        height: 60vh;
+        padding: 12% 5%;
+        height: 20vh;
     }
+}
 
+@media (min-width: 769px) and (max-width: 920px){
     h1{
         font-size: 62px;
-        font-weight: 500;
-    }
-
-    .section1 p{
-        font-size: 34px;
-        width: 850px;
-    }
-
-    .section1 button{
-        margin-top: 17px;
-        font-size: 37px;
-        border-radius: 5px;
-        width: 360px;
-        padding: 3px 0;
-    }
-
-    .content-danceTour{
-        gap: 25px;
-        justify-content: center;
-    }
-
-    .danceTour {
-        padding: 9% 5%;
-    }
-
-    .danceTour h2{
-        font-size: 36px;
-    }
-
-    .danceTourP{
-        font-size: 18px;
-        padding-top: 13px;
-    }
-
-    .items-danceTour img{
-        width: 290px;
-    }
-
-    .items-danceTour{
-        width: 290px;
-    }
-
-    .items-danceTour h3{
-        font-size: 23px;
-    }
-
-    .items-danceTour p{
-        font-size: 16px;
-        padding: 14px 23px;
-    }
-
-    .items-pricing{
-        width: 290px;
-        padding: 50px 0 14px 0;
-    }
-
-    .items-pricing img{
-        width: 36%;
-    }
-
-    .items-pricing button{
-        width: 170px;
-        font-size: 15px;
-        padding: 5px;
-    }
-
-    .items-pricing h3{
-        padding-top: 25px;
-        font-size: 20px;
-    }
-
-    .items-pricing p{
-        font-size: 16px;
-        padding: 16px 0 10px;
-        width: auto;
-    }
-
-    footer p{
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 1201px) {
-    nav{
-        height: 55px;
-    }
-
-    .logo{
-        height: 45px;
-    }
-
-    .search{
-        height: 21px;
-    }
-
-    h1{
-        font-size: 82px;
     }
 
     .section1{
-        padding: 11% 5%;
-        height: 48vh;
+        padding: 8% 5%;
+        height: 17vh;
     }
 
-    .section1 p{
-        font-size: 26px;
+    .section1 P{
         width: 600px;
     }
+}
 
-    .section1 button{
-        margin-top: 10px;
-        font-size: 25px;
-        width: 240px;
-        padding: 4px 0;
+@media (min-width:481px) and (max-width:768px) {
+    h1{
+        font-size: 50px;
     }
 
-    .content-danceTour{
-        gap: 45px;
+    .section1{
+        background-position: center -30px;
+        padding: 5% 5%;
+        height: 13vh;
     }
 
-    .danceTour {
-        padding: 8% 5%;
-    }
-
-    .danceTour h2{
-        font-size: 45px;
-    }
-
-    .danceTourP{
-        font-size: 24px;
-        padding-top: 13px;
-    }
-
-    .items-danceTour{
-        width: 285px;
-    }
-
-    .items-danceTour img{
-        width: 285px;
-    }
-
-    .items-danceTour p{
-        padding: 12px 15px 30px;
-        font-size: 20px;
-    }
-
-    .items-danceTour h3{
-        padding-top: 24px;
-        font-size: 32px;
-    }
-
-    .items-pricing{
-        width: 285px;
-        padding: 65px 30px;
-    }
-
-    .items-pricing h3{
-        font-size: 32px;
-    }
-
-    .items-pricing p{
-        font-size: 20px;
-    }
-
-    .items-pricing button{
+    .section1 P{
+        width: 400px;
         font-size: 18px;
     }
 
-    footer p{
-        font-size: 17px;
+    .section1 button{
+        width: 180px;
+        font-size: 20px;
+        margin-top: 10px;
     }
 }
 
-@media screen and (max-width: 921px) {
-    .section1{
-        padding: 8% 5%;
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width:768px) {
+@media (min-width: 352px) and (max-width: 488px) {
     nav{
-        height: 45px;
+        height: 42px;
     }
 
     .logo{
-        height: 33px;
-    }
-
-    .search{
-        height: 21px;
-    }
-
-    .section1{
-        background-position: center -40px;
-        padding: 18% 5%;
-        height: 24vh;
-    }
-
-    h1{
-        font-size: 53px;
-    }
-
-    .section1 p{
-        font-size: 17px;
-        width: 390px;
-    }
-
-    .section1 button{
-        margin-top: 16px;
-        font-size: 16px;
-        width: 160px;
-        padding: 7px 0;
-    }
-
-    .content-danceTour{
-        justify-content: center;
-        gap: 55px;
-    }
-
-    .danceTour h2{
-        font-size: 35px;
-    }
-
-    .danceTourP{
-        font-size: 16px;
-        padding-top: 13px;
-    }
-
-    .items-danceTour img{
-        width: 230px;
-    }
-
-    .items-pricing img{
-        width: 38%;
-    }
-
-    .items-danceTour{
-        width: 230px;
-    }
-
-    .items-danceTour h3{
-        font-size: 20px;
-    }
-
-    .items-danceTour p{
-        font-size: 11px;
-        padding: 14px 23px;
-    }
-}
-
-@media screen and (max-width: 683px) {
-    .section1{
-        background-position: center -15px;
-        padding: 13% 5%;
-        height: 22vh;
-    }
-
-    h1{
-        font-size: 43px;
-    }
-
-    .section1 p{
-        font-size: 14px;
-        width: 290px;
-    }
-
-    .section1 button{
-        margin-top: 12px;
-        font-size: 14px;
-        width: 145px;
-        padding: 4px 0;
-    }
-
-    .content-danceTour{
-        padding-top: 38px;
-        gap: 32px;
-    }
-
-    .danceTour h2{
-        font-size: 30px;
-    }
-
-    .danceTourP{
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width:519px) {
-    nav{
         height: 32px;
     }
 
-    .logo{
-        height: 23px;
-    }
-
     .search{
-        height: 15px;
-    }
-
-    .section1{
-        background-position: center -21px;
-        padding: 15% 5%;
-        height: 19vh;
+        height: 17px;
     }
 
     h1{
-        font-size: 26px;
+        font-size: 30px;
     }
 
-    .section1 p{
-        font-size: 10px;
-        width: 204px;
+    h2{
+        font-size: 25px;
     }
 
-    .section1 button{
-        margin-top: 12px;
-        font-size: 10px;
-        width: 115px;
-        padding: 3px 0;
-    }
-
-    .content-danceTour{
-        padding-top: 20px;
-        gap: 35px;
-    }
-
-    .danceTour h2{
-        font-size: 28px;
-    }
-
-    .danceTourP{
-        font-size: 11px;
-        width: auto;
-    }
-
-    .items-pricing{
-        width: 240px;
-        padding: 40px 10px;
-    }
-
-    .items-pricing h3{
+    h3{
         font-size: 22px;
     }
 
-    .items-pricing p{
-        font-size: 11px;
+    .section1{
+        background-position: center -16px;
+        padding: 5% 5%;
+        height: 9vh;
     }
 
-    footer{
-        height: auto;
-        padding: 8px;
+    .section1 P{
+        width: 300px;
+        font-size: 14px;
     }
 
-    footer p{
-        font-size: 11px;
+    .section1 button{
+        width: 160px;
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .danceTourP{
+        font-size: 14px;
+    }
+
+    .items-danceTour{
+        width: 260px;
+    }
+
+    .items-danceTour img{
+        width: 260px;
+    }
+
+    .items-danceTour p{
+        font-size: 14px;
+    }
+
+    .items-pricing{
+        padding: 55px 0 25px 0;
+        width: 260px;
+    }
+
+    .items-pricing button{
+        width: 215px;
     }
 }
